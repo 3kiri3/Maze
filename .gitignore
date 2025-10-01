@@ -1,0 +1,27 @@
+# Compiled class files
+bin/
+*.class
+
+# Java build files
+*.jar
+*.war
+*.ear
+
+# Eclipse metadata
+.project
+.classpath
+.settings/
+
+# VSCode files
+.vscode/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+out/
+
+# Mac OS files
+.DS_Store
+
+# Linux files 
+*~
