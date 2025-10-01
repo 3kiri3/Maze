@@ -1,0 +1,10 @@
+#fond{
+	-fx-background-image : url("../img/fondMaze.png");
+	-fx-alignment : center;
+}
+
+#spacer1{
+	
+	-fx-max-width : 300;
+}
+
