@@ -1,6 +1,7 @@
 # Revenge Maze
 
 **Students:** Clarisse, Maryatou, Yousra
+
 **Coursework:** PIS 2 (Practical)  
 
 ---
@@ -65,7 +66,7 @@ Finally, you reach your boss's office floor. Here, the real danger begins. Your 
 1. Open Eclipse and go to **File > Import...**  
 2. Select **Git > Projects from Git** and click **Next**.  
 3. Choose **Clone URI** and click **Next**.  
-4. Enter the repository URI https://github.com/3kiri3/Maze.  
+4. Enter the repository: https://github.com/3kiri3/Maze.  
 5. Click **Next** and **Finish**.  
 
 ### Project Setup (ZIP)
@@ -102,18 +103,10 @@ Note: If errors appear, check for missing dependencies and install them (e.g., l
 
 ---
 
-## Game Objectives
-
-- Navigate through the office maze to reach the elevator.  
-- Complete mini-games to progress between floors.
-- Avoid the boss on the final floor.
-- Retrieve the divorce papers to win the game.
-
----
-
 ## Game Structure
 
 **Front-end:** JavaFX with FXML for UI layout
+
 **Game Engine:**  Custom game loop with 2D array-based maze 
 
 **Key Classes:**
