@@ -7,7 +7,9 @@
 
 ## Project Overview
 
-Revenge Maze is an interactive 2D game developed using JavaFX. It combines maze navigation, puzzle-solving and stealth mechanics. Players must progress through office-themed levels, avoiding obstacles and completing mini-games while travelling in elevators. In the final stage, they must evade AI-controlled bosses. This project showcases the potential of interactive systems and illustrates how engaging and entertaining a user-focused game can be.
+Revenge Maze is an interactive 2D game developed in JavaFX, combining maze navigation, puzzle-solving, and stealth mechanics. Players must progress through office-themed levels, avoiding obstacles, completing mini-games, and riding elevators. In the final stage, players must evade AI-controlled bosses to achieve their ultimate goal.
+
+This project demonstrates the potential of interactive systems and highlights how a user-focused game can be engaging and entertaining.
 
 ### Game Context
 
@@ -57,7 +59,7 @@ Finally, you reach your boss's office floor. Here, the real danger begins. Your 
 ### Prerequisites
 - Java Development Kit (JDK)  
 - JavaFX SDK  
-- Eclipse IDE (or IntelliJ IDEA)  
+- Eclipse IDE (or IntelliJ IDEA or VSCode)  
 
 ### Project Setup (GIT)
 1. Open Eclipse and go to **File > Import...**  
@@ -80,21 +82,31 @@ Finally, you reach your boss's office floor. Here, the real danger begins. Your 
 4. Add VM arguments:  
 
 ### Running the Project
+
 After setup, run the project from Eclipse. The **Revenge Maze** start window will launch automatically.
+
+### Optional: Run via Terminal 
+1. Make sure the run.sh script is executable `chmod +x run.sh`
+2. Run the script: `./run.sh`
+
+Note: If errors appear, check for missing dependencies and install them (e.g., libgl1-mesa-glx, libglfw3, etc.).
 
 ---
 
+
 ## How to Play
 
-Walk around the office using the arrow keys. When you reach the elevator, use the mouse to interact with the mini-games. On the boss’s floor, search quickly for the boss’s office and steal the papers without being caught.
+- Move around the office using arrow keys.
+- Interact with mini-games in elevators using the mouse and the keyboard.
+- On the boss’s floor, navigate stealthily, avoid detection, and steal the divorce papers.
 
 ---
 
 ## Game Objectives
 
 - Navigate through the office maze to reach the elevator.  
-- Complete mini-games during the elevator ride to progress to the next floor.  
-- Avoid detection by the boss on the final floor.  
+- Complete mini-games to progress between floors.
+- Avoid the boss on the final floor.
 - Retrieve the divorce papers to win the game.
 
 ---
@@ -102,18 +114,21 @@ Walk around the office using the arrow keys. When you reach the elevator, use th
 ## Game Structure
 
 **Front-end:** JavaFX with FXML for UI layout
-**Game Engine:**  Custom-build game loop, with 2D array-based maze 
+**Game Engine:**  Custom game loop with 2D array-based maze 
+
 **Key Classes:**
   - `Main.java` - Application entry point, JavaFX initialization
   - `GameController.java` - Main game logic and event handling
   - `GameModel.java` - Maze generation and grid management
-  - etc
-  
+  - `Maze.java` – defines maze structure
+  - `MazeView.java` – renders maze and game visuals
+  - `Player.java` – handles player state and movement
+
 ---
 
 ## Screenshots
 
-*TODO*  
+Raw Version: ![Raw Version](/img/Raw-Screenshot.png)
 
 ---
 

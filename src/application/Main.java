@@ -16,7 +16,7 @@ public class Main extends Application {
         
         scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
         
-        primaryStage.setTitle("Playable Maze Game");  
+        primaryStage.setTitle("Revenge Maze Game");  
         primaryStage.setScene(scene);                 
         
         // CRITICAL FOCUS SETUP
